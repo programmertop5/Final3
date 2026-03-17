@@ -33,7 +33,6 @@ namespace FINALPROJ.Services
             }
         }
 
-        // ─── НОВИНКИ (книги за останні 30 днів) ─────────────────────
         private void ShowNewBooks()
         {
             Console.Clear();
@@ -80,7 +79,6 @@ namespace FINALPROJ.Services
             Console.ReadKey();
         }
 
-        // ─── НАЙПОПУЛЯРНІШІ КНИГИ ────────────────────────────────────
         private void ShowPopularBooks()
         {
             Console.Clear();
@@ -136,7 +134,6 @@ namespace FINALPROJ.Services
             Console.ReadKey();
         }
 
-        // ─── НАЙПОПУЛЯРНІШІ ЖАНРИ ────────────────────────────────────
         private void ShowPopularGenres()
         {
             Console.Clear();
